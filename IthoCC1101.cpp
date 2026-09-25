@@ -210,7 +210,7 @@ void IthoCC1101::initReceive()
   writeRegister(CC1101_MCSM0 , 0x18);     //no auto calibrate
   writeRegister(CC1101_FOCCFG , 0x16);
   writeRegister(CC1101_BSCFG , 0x6C);
-  writeRegister(CC1101_AGCCTRL2 , 0x43);
+  writeRegister(CC1101_AGCCTRL2 , 0x03);
   writeRegister(CC1101_AGCCTRL1 , 0x40);
   writeRegister(CC1101_AGCCTRL0 , 0x91);
   writeRegister(CC1101_FSCAL3 , 0xE9);
