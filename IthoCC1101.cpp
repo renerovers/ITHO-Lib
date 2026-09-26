@@ -193,7 +193,7 @@ void IthoCC1101::initReceive()
   writeRegister(CC1101_MCSM0 , 0x18);     //no auto calibrate
   writeRegister(CC1101_FREQ2 , 0x21);
   writeRegister(CC1101_FREQ1 , 0x65);
-  writeRegister(CC1101_FREQ0 , 0x6C);     //CHANGE THIS VALUE TO CHANGE RECEIVING FREQUENCY
+  writeRegister(CC1101_FREQ0 , 0x70);     //CHANGE THIS VALUE TO CHANGE RECEIVING FREQUENCY
   writeRegister(CC1101_IOCFG0 , 0x2E);      //High impedance (3-state)
   writeRegister(CC1101_IOCFG2 , 0x06);      //0x06 Assert when sync word has been sent / received, and de-asserts at the end of the packet.
   writeRegister(CC1101_FSCTRL1 , 0x06);
